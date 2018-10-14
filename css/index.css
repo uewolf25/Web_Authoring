@@ -8,26 +8,26 @@ div img{
 }
 .header-wrapper h1{
 	color: red;
-	font-size: 40px;
+	font-size: 50px;
 	font-family: cursive;
-	margin: 10px 0px 0px 10px;
+	margin: 0px 0px 0px 10px;
 	/* margin-right: 30px; */
 	/* top: 10px; */
 }
 .header-wrapper{
 	background-color: black;
-	height: 80px;
-}
-.header-left{
-	float: left;
+	height: 125px;
 }
 .header-languages{
 	float: right;
 	margin-right: 50px;
 }
+.header-position{
+	float: left;
+}
 .header-wrapper ul li{ /*link of header*/
 	list-style-type: none;
-	font-size: 25px;
+	font-size: 20px;
 	border-right: white solid 1px;
 	/* margin-right: 10px; */
 	padding: 0px 10px 0px;
@@ -48,9 +48,23 @@ a:visited{
 	padding-top: 80px;
 	height: 500px;
 	/*main cat image.*/
-	background-image: url(image/top_cat1.JPG);
+	background-image: url(../image/top_cat1.JPG);
 	background-size: cover; /*image is covered all*/
 }
+.main-container{
+	margin-left: 70px;
+	margin-right: 30px;
+}
+.main-container h1{
+	color: #8b4513;
+}
+
+
+
+
+
+
+
 footer{
 	background-color: black;
 	height: 200px;
