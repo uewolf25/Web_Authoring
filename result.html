@@ -8,6 +8,7 @@
     <title>W3Cとその説明</title>
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/tableAndBread.css" />
     <!-- <script src="main.js"></script> -->
 </head>
 <body>
@@ -35,34 +36,76 @@
         </div>
     </div> <!-- *****************common    header****************** -->
 
+    <div class="main-container">
+        <div>
+            <ul class="bread">
+                <li><a href="index-j.html">トップ</a></li>
+                <li><a href="result.html">評価実験結果</a></li>
+            </ul>
+        </div>
 
-    <div>
-        <table>
-            <tr>
-              <th>教科名</th>
-              <th>内容</th>
-            </tr>
-      <!-- コンネト -->
-            <tr>
-              <td>コンピュータネットワークⅠ</td>
-              <td>＊教科書名</td>
-              <td>マスタリングTCP/IP入門編第5版</td>
-            </tr>
-            <tr>
-              <td>著者名</td>
-              <td>竹下隆史</td>
-            </tr>
-            <tr>
-              <td>ISBN-13</td>
-              <td>978-4274068768</td>
-            </tr>
-            <tr>
-              <td>URL(amazon)</td>
-              <td>
-                <a href="https://www.amazon.co.jp/マスタリングTCP-IP-入門編-第5版-竹下/dp/4274068765">こちらへ</a>
-              </td>
-            </tr>
-      
+        <div>
+            <h1>評価実験結果</h1>
+            <p></p>
+        </div>
+
+        <!--********************* table *********************-->
+        <table align="center">
+            <caption>Yahoo!</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>206</td> <!-- HTML error -->
+                    <td>19</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>0</td> <!-- HTML Warning -->
+                    <td>5</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://www.yahoo.co.jp">https://www.yahoo.co.jp</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center">
+            <caption>Yahoo!</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>206</td> <!-- HTML error -->
+                    <td>19</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>0</td> <!-- HTML Warning -->
+                    <td>5</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://www.yahoo.co.jp">https://www.yahoo.co.jp</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!--********************* table *********************-->
+
     </div>
 
 
@@ -94,6 +137,9 @@
 			</div>
 		</div>
 	</div>
+
+
+    
     
 </body>
 </html>

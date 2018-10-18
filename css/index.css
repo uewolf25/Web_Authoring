@@ -14,6 +14,7 @@ a:link.current-path-footer, a:visited.current-path-footer{
 	color: greenyellow;
 }
 
+
 /* *****header***** */
 .header-wrapper h1{
 	color: red;
@@ -41,7 +42,6 @@ a:link.current-path-footer, a:visited.current-path-footer{
 	/* margin-right: 10px; */
 	padding: 0px 10px 0px;
 	display: inline;
-						/* change inlines height. */
 }
 a{
 	text-decoration: none;
@@ -95,7 +95,7 @@ a:link, a:visited{
 .footer h3{
 	font-size: 30px;
 	font-family: cursive;
-	border-bottom: thin dotted; /*点線を描く*/
+	border-bottom: thin dotted; /*draw dot*/
 	border-bottom-width: 1px;
 }
 .footer h3, .footer small{
@@ -108,7 +108,7 @@ a:link, a:visited{
 }
 .footer ul li{
 	color: #ffa500;
-	list-style-type: square; /*ラジオボタンを四角に*/
+	list-style-type: square; /* make radio bottom square */
 }
 .container a:active, .container a:hover{
 	color: greenyellow;

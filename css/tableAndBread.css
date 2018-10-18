@@ -1,0 +1,91 @@
+/************************* bread list ********************/
+.bread{
+    margin-left: auto;
+}
+.bread li{
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+}
+.bread li::after{
+    content: '>>';
+    padding: 0px 5px;
+    color: #8b4513;
+}
+.bread li:last-child::after{
+    content: '';
+}
+.bread li a{
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: greenyellow;
+    background: #8b4513;
+}
+.bread li a:hover{
+    background: #8b4513;
+}
+
+.bread li a:hover, .bread li a:active{
+    color: aquamarine;
+}
+
+
+
+/************************* table ************************/
+table {
+    /* border-collapse: collapse; /*overlaid line  */
+    text-align: center;
+    width: 50%;
+    margin-bottom: 50px;
+    /* margin-left: 220px; */
+}
+ 
+th,td {
+    padding: 5px 10px;
+}
+ 
+th {
+    background-color: #8b4513;
+    color:  #fff;
+    font-weight:  normal;
+    position:  relative;
+    z-index: 10;
+    width: 30%;
+}
+ 
+td {
+    background-color:  #deb887;
+    padding-left: 25px;
+}
+ 
+th::after { /* To  */
+    content:'';                 /* make empty letter */
+    position:  absolute;
+    height: 24px;               /* of square */
+    width: 24px;                /* of aquare*/
+    background-color: #8b4513;
+    transform:  rotate(45deg);  /* rotate square*/
+    top: 5px;  
+    right: -13px;
+    z-index:  -1;
+}
+ 
+tr {
+    border-bottom:  solid #fff; /* 線指定 */
+}
+table caption{ /* table title */
+    color: chocolate;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+}
+tr td:nth-child(even){ /* error */
+    color: red;
+}
+tr td:nth-child(odd){ /* warning */
+    color: yellow;
+}
+td a:link, td a:visited{
+	color: black;
+}
+
