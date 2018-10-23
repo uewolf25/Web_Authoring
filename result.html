@@ -44,13 +44,14 @@
             </ul>
         </div>
 
-        <div>
+        <div class="result-position">
             <h1>評価実験結果</h1>
-            <p></p>
+            <p>今回使用したThe W3C Markup Validation ServiceとCSS validation Serviceを利用し、10個のサイトを調べた。</p>
+            <p>有名な動画サイトや、ゲームのHPや声優のHPを調べてみました。</p>
         </div>
 
         <!--********************* table *********************-->
-        <table align="center">
+        <table align="center"> <!-- 1-Yahoo! -->
             <caption>Yahoo!</caption>
             <tbody>
                 <tr>
@@ -77,8 +78,8 @@
             </tbody>
         </table>
 
-        <table align="center">
-            <caption>Yahoo!</caption>
+        <table align="center"> <!-- 2-YouTube -->
+            <caption>YouTube</caption>
             <tbody>
                 <tr>
                     <th></th>
@@ -87,18 +88,234 @@
                 </tr>
                 <tr>
                     <th>HTMLチェック</th>
-                    <td>206</td> <!-- HTML error -->
-                    <td>19</td> <!-- CSS error -->
+                    <td>334</td> <!-- HTML error -->
+                    <td>11</td> <!-- CSS error -->
                 </tr>
                 <tr>
                     <th>CSSチェック</th>
-                    <td>0</td> <!-- HTML Warning -->
-                    <td>5</td> <!-- CSS Warning -->
+                    <td>65</td> <!-- HTML Warning -->
+                    <td>1690</td> <!-- CSS Warning -->
                 </tr>
                 <tr>
                     <th>（URL）</th>
                     <td colspan="2">
-                        <a href="https://www.yahoo.co.jp">https://www.yahoo.co.jp</a>
+                        <a href="https://www.youtube.com">https://www.youtube.com</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 3-Moodle -->
+            <caption>Moodle</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>52</td> <!-- HTML error -->
+                    <td>19</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>13</td> <!-- HTML Warning -->
+                    <td>1424</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://cclms.kyoto-su.ac.jp">https://cclms.kyoto-su.ac.jp</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 4-履正社 -->
+            <caption>履正社</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>17</td> <!-- HTML error -->
+                    <td>16</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>16</td> <!-- HTML Warning -->
+                    <td>158</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://riseisha.ed.jp/h_school/">https://riseisha.ed.jp/h_school/</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 5-298焼肉 -->
+            <caption>298焼肉</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>2</td> <!-- HTML error -->
+                    <td>5</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>5</td> <!-- HTML Warning -->
+                    <td>109</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://298-umeda.owst.jp">https://298-umeda.owst.jp</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 6-FGO-->
+            <caption>FGO</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>14</td> <!-- HTML error -->
+                    <td>2</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>10</td> <!-- HTML Warning -->
+                    <td>154</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://www.fate-go.jp">https://www.fate-go.jp</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 7-ログレス -->
+            <caption>ログレス</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>40</td> <!-- HTML error -->
+                    <td>2</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>4</td> <!-- HTML Warning -->
+                    <td>461</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://sp.mmo-logres.com">https://sp.mmo-logres.com</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 8-LiSA -->
+            <caption>LiSA</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>2</td> <!-- HTML error -->
+                    <td>1</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>20</td> <!-- HTML Warning -->
+                    <td>87</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="http://www.lxixsxa.com">http://www.lxixsxa.com</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 9-水瀬いのり -->
+            <caption>水瀬いのり</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>9</td> <!-- HTML error -->
+                    <td>2</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>11</td> <!-- HTML Warning -->
+                    <td>215</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="https://www.inoriminase.com">https://www.inoriminase.com</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table align="center"> <!-- 10-上坂すみれ -->
+            <caption>上坂すみれ</caption>
+            <tbody>
+                <tr>
+                    <th></th>
+                    <td>エラー</td> 
+                    <td>警告</td>   
+                </tr>
+                <tr>
+                    <th>HTMLチェック</th>
+                    <td>11</td> <!-- HTML error -->
+                    <td>2</td> <!-- CSS error -->
+                </tr>
+                <tr>
+                    <th>CSSチェック</th>
+                    <td>13</td> <!-- HTML Warning -->
+                    <td>21</td> <!-- CSS Warning -->
+                </tr>
+                <tr>
+                    <th>（URL）</th>
+                    <td colspan="2">
+                        <a href="http://king-cr.jp/artist/uesakasumire/">http://king-cr.jp/artist/uesakasumire/</a>
                     </td>
                 </tr>
             </tbody>

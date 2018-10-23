@@ -1,60 +1,85 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <!-- English version -->
-<html lang="ja">
-<head>
-	<meta charset="utf-8">
-	<title>Cat World</title>
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
-<body>
-	<header id="header_whole">
-			<img src="image/logo.JPG" width="80" height="80" alt="猫ロゴ">
-			<h1>CatWorld</h1>
-			<nav>
-				<ul class="otherLink_list">
-					<li><a href="index_en-j.html">top</a></li>
-					<li><a href="index_en-j.html">cat world(仮)</a></li>
-					<li><a href="">other animals intrductions</a></li>
-					<!-- <li class="except">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</li> -->
-					<!-- <li class="right"><a href="index-j.html">Japanese</a></li>
-					<li class="right"><a href="index_en-j.html">English</a></li> -->
-				</ul>
-			</nav>
-			<nav>
-				<ul>
-					<li><a href="index-j.html"></a>Japanese</li>
-					<li><a href="index_en-j.html"></a>English</li>
-				</ul>
-			</nav>
-			<div></div>
-	</header>
-	<article>
-		<img src="image/top_cat1.JPG" width="1300" height="900" alt="猫">
-		<section>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!-- <meta charset="utf-8"> -->
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>WebAuthoring</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/tableAndBread.css" />
+	</head>
+	<body>
+		<!-- *****************common    header****************** -->
+		<div class="header-wrapper">
+			<!-- img, h1 and nav get  -->
+			<img src="image/logo.JPG" class="header-position" width="115" height="115" alt="猫ロゴ" />
+				<div>
+					<ul class="header-languages">
+						<li><a href="index-j.html">Japanese</a></li>
+						<li><a href="index_en-j.html">English</a></li>
+					</ul>
+				</div>
+			<h1>Web Authoring</h1>
+				<div>
+					<ul class="header-position">
+						<li><a href="index_en-j.html" class="current-path-header">Top</a></li>
+						<li><a href="profile.html">Who?</a></li>
+						<!-- <li><a href="#">W3Cとアクセシビリティおよびバリデーションの関係とその説明</a></li> -->
+						<li><a href="relation.html">W3C and its explanation</a></li>
+						<!-- <li><a href="#">アクセシビリティおよびバリデーションに利用したツールの説明</a></li> -->
+						<li><a href="tool.html">Explanation of tool that I used</a></li>
+						<li><a href="result.html">Evaluation exprimental result</a></li>
+						<li><a href="consideration.html">Consideration</a></li>
+					</ul>
+				</div>
+		</div> <!-- *****************common    header****************** -->
 
-			<h1>About cat</h1>
-			<p> Needless to say, cats are very cute. There are two kinds near our animals. It is that people love dogs or cats.</p>
-			<p> I love cats. Although I love dogs, cats give me healing.</p>
-		</section>
-	</article>
-<footer id="footer_main"> 
-	<div class="footer_whole"> <!-- footer内の左右224pxの幅でフィールド設置 -->
-		<h3>SiteMap</h3>
-		<div class="footer_factor">
-			<ul class="footer_list">
-				<li>
-					<span class="footer_list_letter"><a class="footer_border footer_underline" href="index_en-j.html">top</a></span>
-				</li>
-				<li>
-					<span class="footer_list_letter"><a class="footer_border footer_underline" href="index_en-j.html">cat world</a></span>
-				</li>
-				<li>
-					<span class="footer_list_letter"><a class="footer_border footer_underline" href="">other animals intrductions</a></span>
-				</li>
-			</ul>
+		<!-- cat image -->
+		<div class="top-wrapper"></div>
+
+		<div>
+			<!-- <img src="image/top_cat1.JPG" width="1300" height="900" alt="猫"> -->
+			<div class="main-container">
+				<div>
+					<ul class="bread">
+						<li><a href="index_en-j.html">Top</a></li>
+					</ul>
+				</div>
+
+				<h1>exprimental purpose</h1>
+				<p>・We develop an understanding of a concept not only a document data management of web document but also a document data design in terms that people look or use.</p>
+
+				<p>・We research and discuss the usability and accessibility of various Web sites and pages using tools such as an accessibility check tool for the description format of Web documents.</p>
+			</div>
 		</div>
-		<small class="copyright">Copyright &copy; 2018 Uemura Yuto. All Rights Reserved.</small>
+		
+	<div class="footer"> 
+		<div class="container"> <!-- footer内の左右224pxの幅でフィールド設置 -->
+			<h3>SiteMap</h3>
+			<div>
+				<ul>
+					<li><a href="index_en-j.html" class="current-path-footer">トップ</a></li>
+					<li><a href="profile.html">あなたは誰？</a></li>
+					<!-- <li><a href="#">W3Cとアクセシビリティおよびバリデーションの関係とその説明</a></li> -->
+					<li><a href="relation.html">W3Cとその説明</a></li>
+					<!-- <li><a href="#">アクセシビリティおよびバリデーションに利用したツールの説明</a></li> -->
+					<li><a href="tool.html">利用したツールの説明</a></li>
+					<li><a href="result.html">評価実験結果</a></li>
+					<li><a href="consideration.html">考察</a></li>
+				</ul>
+			</div>
+			<small>Copyright &copy; 2018 Uemura Yuto. All Rights Reserved.</small>
+			<div class="checker-img">
+				<a href="http://validator.w3.org/check?uri=referer">
+					<img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" />
+				</a>
+			</div>
+			<div class="checker-img">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer">
+					<img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="正当なCSSです!" />
+				</a>
+			</div>
+		</div>
 	</div>
-</footer>
-</body>
+	</body>
 </html>
